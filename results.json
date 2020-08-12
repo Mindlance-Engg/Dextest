@@ -1,0 +1,69 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario", 
+      "location": "features\\Login.feature:3", 
+      "name": "Login to Clarity Home Page and Logout", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features\\Login.feature:4", 
+          "match": {
+            "arguments": [], 
+            "location": "features\\steps\\StepDefinitions.py:7"
+          }, 
+          "name": "I open dexcom clarity home url", 
+          "result": {
+            "duration": 6.2779998779296875, 
+            "status": "passed"
+          }, 
+          "step_type": "Given"
+        }, 
+        {
+          "keyword": "When", 
+          "location": "features\\Login.feature:5", 
+          "match": {
+            "arguments": [
+              {
+                "value": "nilepatest001"
+              }, 
+              {
+                "value": "Password@1"
+              }
+            ], 
+            "location": "features\\steps\\StepDefinitions.py:14"
+          }, 
+          "name": "I login with username \"nilepatest001\" and password \"Password@1\"", 
+          "result": {
+            "duration": 1.3569998741149902, 
+            "status": "passed"
+          }, 
+          "step_type": "when"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features\\Login.feature:6", 
+          "match": {
+            "arguments": [], 
+            "location": "features\\steps\\StepDefinitions.py:23"
+          }, 
+          "name": "I verify that I successfully logged in by logging out", 
+          "result": {
+            "duration": 1.2179999351501465, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }
+  ], 
+  "keyword": "Feature", 
+  "location": "features\\Login.feature:1", 
+  "name": "Login to Clarity Home Page", 
+  "status": "passed", 
+  "tags": []
+}
+]
